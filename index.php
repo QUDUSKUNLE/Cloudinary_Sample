@@ -7,9 +7,9 @@ require 'src/cloudinary/Api.php';
 
 // CLOUDINARY CONFIGURATION
 \Cloudinary::config(array( 
-  "cloud_name" => "abuja", 
-  "api_key" => "383994855158994", 
-  "api_secret" => "8bOHyOFG-8TceilnihDVgIOCIK4" 
+  "cloud_name" => "cloud_name", 
+  "api_key" => "api_key", 
+  "api_secret" => "api_secret" 
 ));
 
 function upload($file, $option = array(
